@@ -17,4 +17,4 @@
 5. 使用cheerio获取页面元素，获取目标数据
 
 > 教程及文档 [分分钟教你用node.js写个爬虫](https://segmentfault.com/a/1190000014811373)
-> 项目地址 [分分钟教你用node.js写个爬虫](https://segmentfault.com/a/1190000014811373)
+> 项目地址 [news-spider](https://gitee.com/github-29425276/news-spider.git)
