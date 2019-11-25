@@ -1,37 +1,20 @@
 # news-spider
 
-#### 介绍
-node.js编写的爬虫项目
+#### 简介  
+  本项目为基于node.js编写的爬虫项目(百度新闻)
 
-#### 软件架构
-软件架构说明
+#### 本地运行  
+  ~~~bash
+  node index.js    在本机 3001 端口上运行开发调试环境
+  ~~~
 
+#### 整体思路如下  
 
-#### 安装教程
+1. express启动一个简单的Http服务
+2. 分析目标页面DOM结构，找到所要抓取的信息的相关DOM元素
+3. 使用superagent请求目标页面
+4. 动态页面（需要加载页面后运行JS或请求接口的页面）可以使用Nightmare模拟浏览器访问
+5. 使用cheerio获取页面元素，获取目标数据
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+> 教程及文档 [分分钟教你用node.js写个爬虫](https://segmentfault.com/a/1190000014811373)
+> 项目地址 [分分钟教你用node.js写个爬虫](https://segmentfault.com/a/1190000014811373)
